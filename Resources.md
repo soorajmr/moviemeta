@@ -3,6 +3,7 @@
 * NLP and Deep Learning (Prof. Christopher Manning, Deep Learning Summer School, Montreal 2015): http://videolectures.net/deeplearning2015_manning_language_vectors/
 * Deep Learning for Natural Language Processing (without Magic): http://nlp.stanford.edu/courses/NAACL2013/
 * https://www.coursera.org/course/nlp
+* Word2vec algorithm: https://www.youtube.com/watch?v=vkfXBGnDplQ
 
 ## Technical Articles & Papers:
 * http://www.scottbot.net/HIAL/?p=19113
@@ -25,3 +26,4 @@
 * https://github.com/wendykan/DeepLearningMovies
 * Topic model visualization engine: https://github.com/ajbc/tmve-original
 * gensim (Python): http://radimrehurek.com/gensim/
+* Stanford Topic Modeling Toolbox: http://www-nlp.stanford.edu/software/tmt/tmt-0.4/
