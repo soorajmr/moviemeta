@@ -4,6 +4,7 @@
 * Deep Learning for Natural Language Processing (without Magic): http://nlp.stanford.edu/courses/NAACL2013/
 * https://www.coursera.org/course/nlp
 * Word2vec algorithm: https://www.youtube.com/watch?v=vkfXBGnDplQ
+* Topic Models Applied to Online News and Reviews: https://www.youtube.com/watch?v=1wcX4fEdNUo 
 
 ## Technical Articles & Papers:
 * http://www.scottbot.net/HIAL/?p=19113
