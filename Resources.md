@@ -1,5 +1,5 @@
 ## Talks & Lectures:
-* Topic models: http://videolectures.net/mlss09uk_blei_tm/
+* Topic models (By [Prof. David Blei] (http://www.cs.columbia.edu/~blei/index.html), one of the inventors of [LDA](http://jmlr.csail.mit.edu/papers/v3/blei03a.html)): http://videolectures.net/mlss09uk_blei_tm/
 * NLP and Deep Learning (Prof. Christopher Manning, Deep Learning Summer School, Montreal 2015): http://videolectures.net/deeplearning2015_manning_language_vectors/
 * Deep Learning for Natural Language Processing (without Magic): http://nlp.stanford.edu/courses/NAACL2013/
 * https://www.coursera.org/course/nlp
