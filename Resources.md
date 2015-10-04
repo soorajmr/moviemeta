@@ -6,6 +6,7 @@
 * Word2vec algorithm: https://www.youtube.com/watch?v=vkfXBGnDplQ
 * Topic Models Applied to Online News and Reviews: https://www.youtube.com/watch?v=1wcX4fEdNUo 
 * Topic Models on Science magazine (David Blei): https://www.youtube.com/watch?v=7BMsuyBPx90
+* David Blei talking about topic models [on a podcast]  (http://radar.oreilly.com/2015/02/topic-models-past-present-and-future.html)
 
 ## Technical Articles & Papers:
 * http://www.scottbot.net/HIAL/?p=19113
