@@ -30,3 +30,6 @@
 * Topic model visualization engine: https://github.com/ajbc/tmve-original
 * gensim (Python): http://radimrehurek.com/gensim/
 * Stanford Topic Modeling Toolbox: http://www-nlp.stanford.edu/software/tmt/tmt-0.4/
+
+## Implementation - Coding Examples
+* [Nonparametric LDA - python] (http://nbviewer.ipython.org/github/tdhopper/notes-on-dirichlet-processes/blob/master/2015-10-07-econtalk-topics.ipynb)
