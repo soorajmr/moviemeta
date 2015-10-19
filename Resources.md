@@ -33,3 +33,5 @@
 
 ## Implementation - Coding References
 * [Nonparametric LDA - python] (http://nbviewer.ipython.org/github/tdhopper/notes-on-dirichlet-processes/blob/master/2015-10-07-econtalk-topics.ipynb)
+* Uncovering the Hidden Structures in Press Releases of Canadian Federal Parties Issued During the 2015 Election using word2vec and t-SNE - See the blog post [here] (http://mldb.ai/blog/posts/2015/10/election2015/) and the iPython notebook [here] (https://github.com/mldbai/election2015/blob/gh-pages/Elections%202015.ipynb). The code uses a library called mldb to do the analysis, and that is available on github (but not open source).
+* 
