@@ -8,7 +8,10 @@
 2. How do the different film industries influence each other? Dotrends that occur in one industry then happen in another after some delay?
 1. How does the socio-political background of a country/region affect the topics of the movies made there? E.g. one could compare Hollywood, European, East Asian, African and Middle Eastern movies.
 1. What is the topic diversity in different film industries? 
-2. Make recommendations of movies. (If you like movie x, you'll probably like movie y). And as a bonus (probably way beyond the scope of the project): Analyze another domain (e.g. literature) and predict: If you like this movie, you might like this book.
+2. Make recommendations of movies from two different perspectives:
+  3. The movie watchers: If you like movie x, you'll probably like movie y  
+  4. The movie makers: Based on country, industry, budget and so forth, what kind of a film is worth making?
+  5. And as a bonus (probably way beyond the scope of the project): Analyze another domain (e.g. literature) and predict: If you like this movie, you might like this book.
 
 
 ### Complexity of Plot
