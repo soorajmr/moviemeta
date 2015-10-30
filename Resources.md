@@ -22,6 +22,7 @@
 * A topic model for movie reviews (includes visualization using LDAVis): http://cpsievert.github.io/LDAvis/reviews/reviews.html
 * Discovering Different Types of Topics: Factored Topic Models: http://www.cs.cornell.edu/~asaxena/papers/jiang_saxena_factoredtopicmodel.pdf
 * supervised topic models: http://arxiv.org/pdf/1003.0783.pdf
+* Collaborative Topic Modelling. The [paper](https://www.cs.princeton.edu/~chongw/papers/WangBlei2011.pdf) and an [article on how NYT uses it for recommending content](http://open.blogs.nytimes.com/2015/08/11/building-the-next-new-york-times-recommendation-engine/?_r=1).
 
 ## Software Tools & Packages:
 * http://mallet.cs.umass.edu/
