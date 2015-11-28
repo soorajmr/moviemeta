@@ -1,4 +1,5 @@
 # moviemeta
+
 **Repository for movie meta data exploration as part of Harvard Data Science Course CS-109**  
 
 ### What's the idea?
@@ -14,8 +15,8 @@ Video delivery is gradually getting liberated from the traditional satellite and
 This git repository will be used to collect and document ideas, resources and exploratory analyses towards this goal. The final project submission repository could be different.
 
 Pages that capture different aspects of this phase of the project are linked to below:  
-* [Questions that drive the analyses] (Questions.md)
-* [Technical backgroud - Resources] (Resources.md)
-* [Data sources] (Datasources.md)
-* [Ideas beyond text mining] (Beyondtext.md)
 
+- [Questions that drive the analyses] (resources/Questions.md)
+- [Technical backgroud - Resources] (resources/Resources.md)
+- [Data sources] (resources/Datasources.md)
+- [Ideas beyond text mining] (resources/Beyondtext.md)
