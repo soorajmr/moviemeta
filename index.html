@@ -1,123 +1,123 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <title>Moviemeta by soorajmr</title>
 
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
-    <title>Moviemeta by soorajmr</title>
   </head>
-
   <body>
-    <header>
-      <div class="inner">
+    <div class="wrapper">
+      <header>
         <h1>Moviemeta</h1>
-        <h2>Movie Metadata Eploration - Harvard CS109 Project Page</h2>
-        <a href="https://github.com/soorajmr/moviemeta" class="button"><small>View project on</small> GitHub</a>
-      </div>
-    </header>
+        <p>Movie Metadata Eploration - Harvard CS109 Project Page</p>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <p>*** CS-109 project submitted by Mark Reinke (<a href="https://github.com/mreinke" class="user-mention">@mreinke</a>), Wonsun Kim (<a href="https://github.com/wsunkim" class="user-mention">@wsunkim</a>) and Sooraj Raveendran (<a href="https://github.com/soorajmr" class="user-mention">@soorajmr</a>) ***</p>
+        <p class="view"><a href="https://github.com/soorajmr/moviemeta">View the Project on GitHub <small>soorajmr/moviemeta</small></a></p>
 
-<h1>
-<a id="introduction" class="anchor" href="#introduction" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introduction</h1>
 
-<p>Personal video consumption patterns are changing very fast worldwide, with the traditional satellite and cable infrastructure giving way to internet based delivery. This change has repercussions throughout the video production pipeline, including the emergence of many new entrants. Unlike earlier, content producers and distributors have an easy access to a huge market due to the nature of the internet. In this situation, it becomes very important for these companies to understand the collective preferences of the market well. This is essential for deciding what video content to produce and also for effective targeted advertising or recommendations. Through our analysis, we are making an attempt to contribute to the understanding of the nature of movie preferences of different populations across the world and how they vary over time. 
-We were inspired by <a href="https://www.youtube.com/watch?v=vkfXBGnDplQ">a presentation</a> about recommending clothes by applying word2vec to user reviews and an article that describes <a href="http://open.blogs.nytimes.com/2015/08/11/building-the-next-new-york-times-recommendation-engine/?_r=2">how the New York times apply LDA to recommend content</a> to their users.</p>
+        <ul>
+          <li><a href="https://github.com/soorajmr/moviemeta/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/soorajmr/moviemeta/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/soorajmr/moviemeta">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <pre><code>  &lt;h1&gt;
+              &lt;a id="introduction" class="anchor" href="#introduction" aria-hidden="true"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Introduction
+           &lt;/h1&gt;
+           &lt;p&gt; Do you like movies? What kind of movies do you like? Hollywood blockbuster or independent film? Say that we are a start-up film maker and looking for 'target' countries from which our new films would get big profit. What can we do first to get insights on the target markets? We should start from some researches on &lt;b&gt;what topics are popular, how diverse the movie topics are&lt;/b&gt; and &lt;b&gt;how does socio-political or historical background affect the topics of movies&lt;/b&gt;. In other words, investigation on the &lt;b&gt;distribution of topics across the world&lt;/b&gt; should give some insights for us. Here, we'll describe some interesting results of the topic analyses on movies across the world. Hope you enjoy and make interesting findings here! &lt;/p&gt;
 
-<p>In this project, we apply text mining techniques on a large corpus of movie plot summaries to gain non-obvious insights to the content of the movies. We try to create models of movies for the purpose of studying the nature of collective user preferences. We further do an analysis of the preferences across different geographies. Here we assume that movie preferences are closely tied to the cultural and political environment of a country or region and understanding these nuances will enable us to predict what types of content are preferred by the people of each region. We also carry out a similar analysis across the dimension of time to study the nature of variations in the preference patterns.</p>
-
-<h1>
-<a id="data-sources" class="anchor" href="#data-sources" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data Sources</h1>
-
-<h2>
-<a id="imdb" class="anchor" href="#imdb" aria-hidden="true"><span class="octicon octicon-link"></span></a>IMDB</h2>
-
-<h2>
-<a id="wikipedia" class="anchor" href="#wikipedia" aria-hidden="true"><span class="octicon octicon-link"></span></a>Wikipedia</h2>
-
-<h2>
-<a id="boxofficemojo" class="anchor" href="#boxofficemojo" aria-hidden="true"><span class="octicon octicon-link"></span></a>Boxofficemojo</h2>
-
-<h1>
-<a id="data-cleaning-and-feature-extraction" class="anchor" href="#data-cleaning-and-feature-extraction" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data Cleaning and Feature Extraction</h1>
-
-<p>Details of stemming, tokenization, POS tagging etc.</p>
-
-<h1>
-<a id="topic-modeling-of-plots" class="anchor" href="#topic-modeling-of-plots" aria-hidden="true"><span class="octicon octicon-link"></span></a>Topic Modeling of Plots</h1>
-
-<h2>
-<a id="lda-algorithm" class="anchor" href="#lda-algorithm" aria-hidden="true"><span class="octicon octicon-link"></span></a>LDA Algorithm</h2>
-
-<h2>
-<a id="topics-by-country-of-origin" class="anchor" href="#topics-by-country-of-origin" aria-hidden="true"><span class="octicon octicon-link"></span></a>Topics by Country of Origin</h2>
-
-<h2>
-<a id="topics-by-popularity-across-countries" class="anchor" href="#topics-by-popularity-across-countries" aria-hidden="true"><span class="octicon octicon-link"></span></a>Topics by Popularity across Countries</h2>
-
-<h2>
-<a id="topics-by-film-industry" class="anchor" href="#topics-by-film-industry" aria-hidden="true"><span class="octicon octicon-link"></span></a>Topics by Film Industry</h2>
-
-<h2>
-<a id="changes-over-time" class="anchor" href="#changes-over-time" aria-hidden="true"><span class="octicon octicon-link"></span></a>Changes over Time</h2>
-
-<h1>
-<a id="distributed-representations-of-plots" class="anchor" href="#distributed-representations-of-plots" aria-hidden="true"><span class="octicon octicon-link"></span></a>Distributed Representations of Plots</h1>
-
-<h2>
-<a id="doc2vec-algorithm" class="anchor" href="#doc2vec-algorithm" aria-hidden="true"><span class="octicon octicon-link"></span></a>Doc2Vec Algorithm</h2>
-
-<h2>
-<a id="movies-by-country-of-origin" class="anchor" href="#movies-by-country-of-origin" aria-hidden="true"><span class="octicon octicon-link"></span></a>Movies by Country of Origin</h2>
-
-<h2>
-<a id="movies-by-popularity-across-countries" class="anchor" href="#movies-by-popularity-across-countries" aria-hidden="true"><span class="octicon octicon-link"></span></a>Movies by Popularity across Countries</h2>
-
-<h2>
-<a id="similarity-of-countries" class="anchor" href="#similarity-of-countries" aria-hidden="true"><span class="octicon octicon-link"></span></a>Similarity of Countries</h2>
-
-<h2>
-<a id="similarity-of-industries" class="anchor" href="#similarity-of-industries" aria-hidden="true"><span class="octicon octicon-link"></span></a>Similarity of Industries</h2>
-
-<h2>
-<a id="changes-over-time-1" class="anchor" href="#changes-over-time-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Changes over Time</h2>
-
-<h1>
-<a id="conclusion" class="anchor" href="#conclusion" aria-hidden="true"><span class="octicon octicon-link"></span></a>Conclusion</h1>
-
-<h1>
-<a id="references" class="anchor" href="#references" aria-hidden="true"><span class="octicon octicon-link"></span></a>References</h1>
-        </section>
-
-        <aside id="sidebar">
-          <a href="https://github.com/soorajmr/moviemeta/zipball/master" class="button">
-            <small>Download</small>
-            .zip file
-          </a>
-          <a href="https://github.com/soorajmr/moviemeta/tarball/master" class="button">
-            <small>Download</small>
-            .tar.gz file
-          </a>
-
-          <p class="repo-owner"><a href="https://github.com/soorajmr/moviemeta"></a> is maintained by <a href="https://github.com/soorajmr">soorajmr</a>.</p>
-
-          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
-        </aside>
-      </div>
+           &lt;p&gt;Personal video consumption patterns are changing very fast worldwide, with the traditional satellite and cable infrastructure giving way to internet based delivery. This change has repercussions throughout the video production pipeline, including the emergence of many new entrants. Unlike earlier, content producers and distributors have an easy access to a huge market due to the nature of the internet. In this situation, it becomes very important for these companies to understand the collective preferences of the market well. This is essential for deciding what video content to produce and also for effective targeted advertising or recommendations. Through our analysis, we are making an attempt to contribute to the understanding of the nature of movie preferences of different populations across the world and how they vary over time. 
+              We were inspired by &lt;a href="https://www.youtube.com/watch?v=vkfXBGnDplQ"&gt;a presentation&lt;/a&gt; about recommending clothes by applying word2vec to user reviews and an article that describes &lt;a href="http://open.blogs.nytimes.com/2015/08/11/building-the-next-new-york-times-recommendation-engine/?_r=2"&gt;how the New York times apply LDA to recommend content&lt;/a&gt; to their users.
+           &lt;/p&gt;
+           &lt;p&gt;In this project, we apply text mining techniques on a large corpus of movie plot summaries to gain non-obvious insights to the content of the movies. We try to create models of movies for the purpose of studying the nature of collective user preferences. We further do an analysis of the preferences across different geographies. Here we assume that movie preferences are closely tied to the cultural and political environment of a country or region and understanding these nuances will enable us to predict what types of content are preferred by the people of each region. We also carry out a similar analysis across the dimension of time to study the nature of variations in the preference patterns.&lt;/p&gt;
+           &lt;br&gt; 
+           &lt;h1&gt;
+              &lt;a id="data_sources" class="anchor" href="#datasources" aria-hidden="true"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Data Sources
+           &lt;/h1&gt;
+           &lt;p&gt;- moive metadata from IMDb(&lt;a href="http://www.imdb.com"&gt;www.imdb.com&lt;/a&gt;) since 2000&lt;br&gt;
+              - movie metadata from wikipedia(&lt;a href="http://wiki.dbpedia.org"&gt;wiki.dbpedia.org&lt;/a&gt;)&lt;br&gt;
+              - box office top movies from Box Office Mojo(&lt;a href="http://www.boxofficemojo.com"&gt;www.boxofficemojo.com&lt;/a&gt;) since 2007&lt;br&gt;
+           &lt;/p&gt;
+           &lt;h1&gt;
+              &lt;a id="data_processing" class="anchor" href="#dataprocessing" aria-hidden="true"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Data Processing
+           &lt;/h1&gt;
+           &lt;p&gt;We performed &lt;b&gt;Latent Dirichlet Allocation&lt;/b&gt; and &lt;b&gt;doc2vec&lt;/b&gt; analysis on the metadata of movies, especially on the movie plots. You can find our processing in-deatil &lt;a href="https://github.com/soorajmr/moviemeta/tree/master/notebooks"&gt;here&lt;/a&gt;.&lt;/p&gt;
+           &lt;h3&gt; &lt;b&gt;What are the popular movie topics across several movie-loving countries?&lt;/b&gt;&lt;/h3&gt;
+           &lt;p&gt;Topics of popular movies is an important indicator of interests or issues of a society, because making and selecting movies are inevitably affected by social, political, and historical background. To answer our question, 2,400 popular movie plots for United States, United Kingdom, Germany, Russia, Mexico, and South Korea were analyzed since 2007(50 popular movies per year, per country). Popularity of a topic can be represented by prevalency of that topic in each movie. 
+              Global popular topics represent the 'overall' popularity of topics across the 6 countries. As we can see in the following chart, topic of  &lt;b&gt;'love, family'&lt;/b&gt; is the most popular, along with &lt;b&gt;'friendship, relationship','crime, mistery','gangs, drugs, police',
+              , and 'fantasy, fairy tale'&lt;/b&gt;. 
+              Interestingly, top 2 topics represent 'relationship' with others(love, family, friendship), indicating that the 'relationship' is in the heart of our life. Prevalent words for each topics, such as marriage, wife, father, family, friend, and mother, also indicate that relationship with family, friend, and spouse is a utmost important issues. 2 out of top 5 topics are related to 'crime', indicating the awareness on the common dark side issue of our lives across the world.
+              Regardless of the limited number of popular movies, we could find a wide spectrum of topics, from 'love, relationship' to 'war', 'terrorism', and 'press, politics'. 
+           &lt;/p&gt;
+           &lt;script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'&gt;&lt;/script&gt;
+           &lt;div class='tableauPlaceholder' style='width: 1020px; height: 1033px;'&gt;
+              &lt;noscript&gt;&lt;a href='#'&gt;&lt;img alt='Topic Distribution of Popular Movies ' src='https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;Po&amp;#47;Popularity_final&amp;#47;Story1&amp;#47;1_rss.png' style='border: none' /&gt;&lt;/a&gt;&lt;/noscript&gt;
+              &lt;object class='tableauViz' width='1020' height='1033' style='display:none;'&gt;
+                 &lt;param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /&gt;
+                 &lt;param name='site_root' value='' /&gt;
+                 &lt;param name='name' value='Popularity_final&amp;#47;Story1' /&gt;
+                 &lt;param name='tabs' value='no' /&gt;
+                 &lt;param name='toolbar' value='yes' /&gt;
+                 &lt;param name='static_image' value='https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;Po&amp;#47;Popularity_final&amp;#47;Story1&amp;#47;1.png' /&gt;
+                 &lt;param name='animate_transition' value='yes' /&gt;
+                 &lt;param name='display_static_image' value='yes' /&gt;
+                 &lt;param name='display_spinner' value='yes' /&gt;
+                 &lt;param name='display_overlay' value='yes' /&gt;
+                 &lt;param name='display_count' value='yes' /&gt;
+                 &lt;param name='showVizHome' value='no' /&gt;
+                 &lt;param name='showTabs' value='y' /&gt;
+                 &lt;param name='bootstrapWhenNotified' value='true' /&gt;
+              &lt;/object&gt;
+           &lt;/div&gt;
+           &lt;br&gt;
+           &lt;h3&gt;&lt;b&gt; Are there any differences in popular topics across countries?&lt;/b&gt;&lt;/h3&gt;
+           &lt;p&gt;Comparing popular topic distribution across 6 countries(&lt;i&gt;click the square box "Country-wise Global Top 10 Topic Distribution&lt;/i&gt; in above chart), we could see that the popularity of different topics is quite similar across the countries. It may be because considerable number of top movies in those countries are overlapped each other. One interesting difference was noticed for South Korea: the most popular topic in South Kroea is 'crime, mistery', while 'love, family' is the most popular in the other countries. Further detailed analyses should be required to get the origin of this uniqueness of South Korea, but it clearly shows the South Korean moviegoers' preference or public awareness toward the topic. &lt;/p&gt;
+           &lt;h3&gt;&lt;b&gt;Are there any differences in movie topics produced in different countries(origin of movies)?&lt;/b&gt;&lt;/h3&gt;
+           &lt;p&gt;To get more insights from the popular topics and topic distribution, we addressed a different view point: &lt;b&gt;&lt;/b&gt;"Origin of Movies"&lt;/b&gt;. If topics of movies produced in a specific country(for example, South Korea) show a unique interests on some particular topics(for example, 'crime, mystery'), it can be interpreted as a result of 'preference', 'taste' or 'common socio-political interests' in that country. If we can get geographical distribution of movie topics by origin of movies, it should give us a more clear insights on deciding where to proceed. Thus, we performed analyses on topic distribution by origin of movies across about 70 countries in the world, since 2007.&lt;/p&gt;
+           &lt;script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'&gt;&lt;/script&gt;
+           &lt;div class='tableauPlaceholder' style='width: 1020px; height: 1133px;'&gt;
+              &lt;noscript&gt;&lt;a href='#'&gt;&lt;img alt='Topic Distribution by Origin ' src='https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;Or&amp;#47;Origin_over_100&amp;#47;Story1&amp;#47;1_rss.png' style='border: none' /&gt;&lt;/a&gt;&lt;/noscript&gt;
+              &lt;object class='tableauViz' width='1020' height='1133' style='display:none;'&gt;
+                 &lt;param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /&gt;
+                 &lt;param name='site_root' value='' /&gt;
+                 &lt;param name='name' value='Origin_over_100&amp;#47;Story1' /&gt;
+                 &lt;param name='tabs' value='no' /&gt;
+                 &lt;param name='toolbar' value='yes' /&gt;
+                 &lt;param name='static_image' value='https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;Or&amp;#47;Origin_over_100&amp;#47;Story1&amp;#47;1.png' /&gt;
+                 &lt;param name='animate_transition' value='yes' /&gt;
+                 &lt;param name='display_static_image' value='yes' /&gt;
+                 &lt;param name='display_spinner' value='yes' /&gt;
+                 &lt;param name='display_overlay' value='yes' /&gt;
+                 &lt;param name='display_count' value='yes' /&gt;
+                 &lt;param name='showVizHome' value='no' /&gt;
+                 &lt;param name='showTabs' value='y' /&gt;
+                 &lt;param name='bootstrapWhenNotified' value='true' /&gt;
+              &lt;/object&gt;
+           &lt;/div&gt;
+           &lt;p&gt;Above map shows the distribution of the number of movies produced in each country. The size of bubble represents the total number of movies produced in that country. As expected, United States is the "greatest producer" of movies in the world, and Canada, United Kingdom, Germany, and India also show considerable number of movies. You can see the topic distribution of each country in-detail, by clicking the bubble on the map, and by hovering on the name of country in the bar chart, you can order the topics in ascending/descending. Although we are using 'normalized' topic prevalence as a measure, let's compare countries with number of movies greater than 100 to avoid mis-interpretation on the topic distribution for those countries with small number of movie data.&lt;/p&gt;
+           &lt;p&gt;Among those countries, &lt;b&gt;India&lt;/b&gt; show somewhat different behavior comparing top t prevalent topics. Indian movies show relatively higher preference toward the topic 'crime, police, underworld', ranked 4th, while it did not rank in the top 10 for the other countries. Movies produced in &lt;b&gt;South Africa, Hong Kong, Bulgaria, Egypt, and Cuba show highest preference toward 'society, culture'. &lt;b&gt;Japanese, South Korean, and Russian movies&lt;/b&gt; shows relatively higher interests on the topic &lt;b&gt;'spies, terrorism'&lt;/b&gt;, compared to other countries. We could see the uniqueness of topic distribution by origin of movies clearly.&lt;/p&gt;
+           &lt;p&gt;Are there any difference between the &lt;b&gt;preference of moviegoers and the preference of movie makers&lt;/b&gt;? Difference between these two preference can give us a clue on the diversity of movie industry of a specific country. Clue on this question could be obtained by comparing 'popular topics of movies shown in a country' and 'prevalent topics of movies produced in a country'. By comparing top 5 topics in each category for each country, we could find that 2~3 out of top 5 topics are different. For those 4 countries, topic &lt;b&gt; 'gangs, drug, police'&lt;/b&gt; ranked in top 5, but the movie-makers do not show such a high preference toward that topic. Also, movie-makers in those countries show relatively high preference toward the topic &lt;b&gt;'exploration, nature, space'&lt;/b&gt;, but moviegoers do not show such a high preference toward that topic. From these results, we could find that there exits some difference between moviegoers' preference and movie-makers' preference.&lt;/p&gt;
+           &lt;h3&gt;&lt;b&gt;Video&lt;/b&gt;&lt;/h3&gt;
+           &lt;p&gt;Here is our video. You can find some process details and summary of the results on this video.&lt;/p&gt;
+           &lt;br&gt;
+           &lt;h1&gt;
+              &lt;a id="references" class="anchor" href="#references" aria-hidden="true"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;References
+           &lt;/h1&gt;
+</code></pre>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/soorajmr">soorajmr</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
     </div>
-
-  
+    <script src="javascripts/scale.fix.js"></script>
+    
   </body>
 </html>
