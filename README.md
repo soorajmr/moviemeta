@@ -1,22 +1,27 @@
 # moviemeta
 
-**Repository for movie meta data exploration as part of Harvard Data Science Course CS-109**  
+**Repository containing the code and other resources for movie meta data exploration as part of the project in Harvard Data Science Course CS-109**
 
-### What's the idea?
+**Authors:** Mark Reinke, Wonsun Kim and Sooraj Raveendran 
 
-The high level idea is to apply text mining techniques on movie mata data like plot summaries, reviews and subtitles to gain non-obvious insights to the content of the movies. This analysis can be carried out across different dimensions to study cultural, linguistic, geographical and temporal patterns in the contents of movies. One would assume that movies reflect the sociopolitical realities and cultural nuances of a society at a given point of time. Our initial analysis may look for these patterns in the topics of movies and that will hopefully lead us to more specific ideas to pursue.
-
-### Hmm... But who cares?
+## Project Summary
 
 Video delivery is gradually getting liberated from the traditional satellite and cable infrastructure. Also, the barriers of entry for video production and distribution is dropping significantly. As the landscape changes and the [new entrants want to achieve scale] (http://www.nytimes.com/2015/10/19/technology/netflix-faces-challengers-in-its-push-to-expand-globally.html?_r=0), understanding local sensitivities become very important. 
 
-### OK, What's in here?
+The high level idea of our project is to apply text mining techniques on movie mata data like plot summaries to gain non-obvious insights to the content of the movies. This analysis is carried out across different dimensions to study cultural, geographical and temporal patterns in the contents of movies.
 
-This git repository will be used to collect and document ideas, resources and exploratory analyses towards this goal. The final project submission repository could be different.
+## Links
 
-Pages that capture different aspects of this phase of the project are linked to below:  
+* For more details on the approaches we use, please see the [process notebook] (https://github.com/soorajmr/moviemeta/blob/master/notebooks/process_book.ipynb) 
 
-- [Questions that drive the analyses] (resources/Questions.md)
-- [Technical backgroud - Resources] (resources/Resources.md)
-- [Data sources] (resources/Datasources.md)
-- [Ideas beyond text mining] (resources/Beyondtext.md)
+* For a general overview of the results, see http://wsunkim.github.io/moviemeta_web/ 
+
+## Contents of the repository
+
+* The notebooks directory has all Jupyter notebooks that implement data cleaning and various analyses. For an index, see the [process notebook] (https://github.com/soorajmr/moviemeta/blob/master/notebooks/process_book.ipynb) 
+
+* The resources directory contains references and other information.
+** [Initial questions that drove the analyses] (resources/Questions.md)
+** [Technical backgroud - Resources] (resources/Resources.md)
+** [Data sources we explored] (resources/Datasources.md)
+ 
