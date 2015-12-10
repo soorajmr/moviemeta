@@ -1,4 +1,4 @@
-<h1 align=center>Moviemeta<h1>
+<h1 align=center>Moviemeta</h1>
 <p align=center>Harvard Data Science course CS-109 Project Repository, created by Mark Reinke, Wonsun Kim and Sooraj Raveendran </p>
 <hr>
 
