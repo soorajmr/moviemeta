@@ -20,7 +20,7 @@ The high level idea of our project is to apply text mining techniques on movie m
 * The notebooks directory has all Jupyter notebooks that implement data cleaning and various analyses. For an index, see the [process notebook] (https://github.com/soorajmr/moviemeta/blob/master/notebooks/process_book.ipynb) 
 
 * The resources directory contains references and other information.
-** [Initial questions that drove the analyses] (resources/Questions.md)
-** [Technical backgroud - Resources] (resources/Resources.md)
-** [Data sources we explored] (resources/Datasources.md)
+ * [Initial questions that drove the analyses] (resources/Questions.md)
+ * [Technical backgroud - Resources] (resources/Resources.md)
+ * [Data sources we explored] (resources/Datasources.md)
  
