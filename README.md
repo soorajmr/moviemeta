@@ -1,8 +1,7 @@
-# moviemeta
+<h1 align=center>Moviemeta<h1>
+<p align=center>Harvard Data Science course CS-109 Project Repository, created by Mark Reinke, Wonsun Kim and Sooraj Raveendran </p>
+<hr>
 
-**Repository containing the code and other resources for movie meta data exploration as part of the project in Harvard Data Science Course CS-109**
-
-**Authors:** Mark Reinke, Wonsun Kim and Sooraj Raveendran 
 
 ## Project Summary
 
