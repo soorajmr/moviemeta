@@ -16,6 +16,7 @@ The high level idea of our project is to apply text mining techniques on movie m
 
 - For more details on the approaches we use, please see the [process notebook] (https://github.com/soorajmr/moviemeta/blob/master/notebooks/process_book.ipynb) 
 - For a general overview of the results, see http://markreinke.github.io/moviemeta_web/
+- [Project video]("https://www.youtube.com/watch?v=gy-jurm5DtI")
 
 ## Contents of the repository
 
