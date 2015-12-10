@@ -18,7 +18,7 @@ The high level idea of our project is to apply text mining techniques on movie m
 
 ## Contents of the repository
 
-* The notebooks directory has all Jupyter notebooks that implement data cleaning and various analyses. For an index, see the [process notebook] (https://github.com/soorajmr/moviemeta/blob/master/notebooks/process_book.ipynb) 
+* The notebooks directory has all the Jupyter notebooks that implement data cleaning and various analyses using LDA, Doc2Vec, etc. For an index, see the [process notebook] (https://github.com/soorajmr/moviemeta/blob/master/notebooks/process_book.ipynb) 
 
 * The resources directory contains references and other information.
  * [Initial questions that drove the analyses] (resources/Questions.md)
